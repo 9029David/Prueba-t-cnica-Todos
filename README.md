@@ -76,10 +76,11 @@ Paso 3: Usá los botones para completar o eliminar tareas.
 
 ## Mejoras que implementarías con más tiempo
 
-1. Poder editar las tareas -> En proceso
-2. Implementar persistencia de datos en localStorage -> Hecho
-3. Añadir algun que otro test 
-4. El modo oscuro nunca esta de mas
+1. Realizar el backend de la App, por que no? -> En proceso
+2. Poder editar las tareas -> En proceso
+3. Implementar persistencia de datos en localStorage -> Hecho
+4. Añadir algun que otro test 
+5. El modo oscuro nunca esta de mas
 
 
 ## 👨‍💻 Autor
