@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+### PRUEBA TÉCNICA 
 
-## Getting Started
+## 🧠 Funcionalidades
+- Agregar tareas
+- Marcar tareas como completadas
+- Eliminar tareas
+- Persistencia de datos en localStorage
 
-First, run the development server:
+
+## 🚀 Decisiones técnicas tomadas 
+
+- Next.js
+- TypeScript
+- React Context
+- LocalStorage
+- Tailwind.CSS
+- CSS global con 'globals.css'
+
+
+## 📁 Explicación breve de la estructura del proyecto 
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+/app
+    └── components
+        ├── Message.component.tsx
+        ├── TaskForm.component.tsx
+        ├── TaskItem.component.tsx
+        ├── TaskList.component.tsx
+        ├── TaskSection.component.tsx
+    └── context
+        ├── useTask.context.tsx
+    └── hook
+        ├── useTask.hook.ts
+    └── globals.css
+    └── layout.tsx
+    └── page.tsx
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Instrucciones para instalar y ejecutar el proyecto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# Clonar el repositorio
+git clone https://github.com/9029David/Prueba-t-cnica-Todos.git
 
-## Learn More
+# Entrar en la carpeta
+cd front
 
-To learn more about Next.js, take a look at the following resources:
+# Instalar dependencias
+npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Iniciar el servidor
+npm run dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Abra [http://localhost:3000](http://localhost:3000) con su navegador para ver el resultado.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🎯 Cómo usarlo
+
+Paso 1: Escribí una tarea en el formulario.
+
+![alt text](image.png)
+
+Paso 2: Hacé clic en el botón de agregar.
+
+![alt text](image-1.png)
+
+Paso 3: Usá los botones para completar o eliminar tareas.
+
+![alt text](image-2.png)
+
+¡Tus tareas se guardan automáticamente!  
+
+
+## Mejoras que implementarías con más tiempo
+
+1. Poder editar las tareas -> En proceso
+2. Implementar persistencia de datos en localStorage -> Hecho
+3. Añadir algun que otro test 
+4. El modo oscuro nunca esta de mas
+
+
+## 👨‍💻 Autor
+David Álvarez
+Estudiante de Informática y Sistemas
+[LinkedIn](https://www.linkedin.com/in/9029david/) | [GitHub](https://github.com/9029David)
+
+
